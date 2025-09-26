@@ -1,0 +1,15 @@
+
+name: ForeverStuckCI
+
+on:
+  push:
+    branches:
+      - '*'
+
+jobs:
+  foo:
+    runs-on: self-hosted
+    steps:
+      - name: Foo
+        run: echo Foo!
+
